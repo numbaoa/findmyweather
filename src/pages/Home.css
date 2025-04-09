@@ -1,0 +1,41 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .about-button-wrapper {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .about-button {
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    color: #1e3a8a; /* Tailwind's blue-900 */
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .about-button:hover {
+    background-color: #e0f2fe; /* Tailwind's blue-100 */
+  }
+  
+  .weather-card {
+    background-color: #1e3a8a; /* Tailwind's blue-900 */
+    color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 24rem;
+  }
+  

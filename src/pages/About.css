@@ -1,0 +1,43 @@
+.about-container {
+    min-height: 100vh;
+    background-color: #A7C7E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    text-align: center;
+  }
+
+  .description-text {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 42rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  
+  .back-button img {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .description-text {
+    margin-top: 1.5rem;
+    max-width: 42rem;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
